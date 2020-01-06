@@ -12,8 +12,12 @@ class App extends Component {
         }
     }
 
-    onSearchChange(event) {
-        console.log(event.target.value);
+    onSearchChange = (event) => {
+        this.setState( {searchField: event.target.value})
+        const filteredCards = this.state.cards.filter(card => {
+            return card.name.toLowerCase().includes(this.state.searchField.toLowerCase())
+        })
+        console.log(filteredCards);
     }
 
     render () {
