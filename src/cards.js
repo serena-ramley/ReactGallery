@@ -1,7 +1,7 @@
 export const cards = [
     {
         id: 8,
-        name: 'Honour Roll',
+        name: 'Super Roll',
         city: 'North Vancouver',
         food: 'sushi',
         days_valid: ['Tuesdays']
