@@ -4,7 +4,7 @@ export const cards = [
         name: 'Super Roll',
         city: 'North Vancouver',
         food: 'sushi',
-        days_valid: ['Tuesdays']
+        days_valid: ['Tuesday']
     },
 
     {
@@ -12,7 +12,7 @@ export const cards = [
         name: "Aunt Lolita's Bakery",
         city: 'Vancouver',
         food: 'bread',
-        days_valid: ['Thursdays ', ' & Fridays']
+        days_valid: ['Thursday ', ' & Friday']
     },
 
     {
@@ -20,6 +20,6 @@ export const cards = [
         name: 'Family Kitchen',
         city: 'Richmond',
         food: 'appetizer',
-        days_valid: ['Mondays']
+        days_valid: ['Monday']
     },
 ]
