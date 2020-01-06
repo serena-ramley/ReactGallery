@@ -18,11 +18,13 @@ class App extends Component {
     }
 
 
-//                    || card.food.toLowerCase().includes(this.state.searchField.toLowerCase())
+//                    
 
     render () {
         const filteredCards = this.state.cards.filter(card => {
             return (card.name.toLowerCase().includes(this.state.searchField.toLowerCase())
+                || card.food.toLowerCase().includes(this.state.searchField.toLowerCase())
+            )
         })
         return (
             <div className="tc">
