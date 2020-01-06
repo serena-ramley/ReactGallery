@@ -24,6 +24,7 @@ class App extends Component {
         const filteredCards = this.state.cards.filter(card => {
             return (card.name.toLowerCase().includes(this.state.searchField.toLowerCase())
                 || card.food.toLowerCase().includes(this.state.searchField.toLowerCase())
+                || card.days_valid.map(day => day.toLowerCase()).includes(this.state.searchField.toLowerCase())
             )
         })
         return (
