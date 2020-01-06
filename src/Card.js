@@ -2,7 +2,8 @@ import React from 'react';
 
 const Card = () => {
     return (
-        <div className='bg-light-green'>
+        // Use tachyons to create green background and grow upon hover
+        <div className='bg-light-green dib br3 pa3 ma2 grow'>
             <img alt='robot' src='https://robohash.org/test?200x200' />
             <div>
                 <h2>Jane Doe</h2>
