@@ -1,4 +1,4 @@
-{
+({
     "id": 8,
     "name": "Super Roll",
     "city": "North Vancouver",
@@ -27,4 +27,4 @@
     "days_valid": {
         "0": "Monday"
     }
-}
+})
