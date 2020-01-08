@@ -1,30 +1,14 @@
-({
-    "id": 8,
-    "name": "Super Roll",
-    "city": "North Vancouver",
-    "food": "sushi",
-    "days_valid": {
-        "0": "Tuesday"
-    }
-},
-
 {
-    "id": 10,
-    "name": "Aunt Lolita's Bakery",
-    "city": "Vancouver",
-    "food": "bread",
-    "days_valid": {
-        "0": "Thursday",
-        "1": " & Friday"
-    }
-},
-
-{
-    "id": 3,
-    "name": "Family Kitchen",
-    "city": "Richmond",
-    "food": "appetizer",
-    "days_valid": {
-        "0": "Monday"
-    }
-})
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
