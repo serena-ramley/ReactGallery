@@ -12,7 +12,7 @@
       "name": "Aunt Lolita's Bakery",
       "city": "Vancouver",
       "food": "bread",
-      "days_valid": ["Thursday "," & Friday"]
+      "days_valid": ["Thursday"," & ", "Friday"]
     },
     {
       "id": 3,
