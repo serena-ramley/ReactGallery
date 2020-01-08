@@ -1,10 +1,12 @@
 [
     {
         "id": 8,
-        "name": 'Super Roll',
-        "city": 'North Vancouver',
-        "food": 'sushi',
-        "days_valid": ['Tuesday']
+        "name": "Super Roll",
+        "city": "North Vancouver",
+        "food": "sushi",
+        "days_valid": {
+            "0": "Tuesday"
+        }
     },
 
     {
@@ -12,7 +14,10 @@
         "name": "Aunt Lolita's Bakery",
         "city": 'Vancouver',
         "food": 'bread',
-        "days_valid": ['Thursday ', ' & Friday']
+        "days_valid": {
+            "0": "Thursday",
+            "1": " & Friday"
+        }
     },
 
     {
@@ -20,6 +25,7 @@
         "name": 'Family Kitchen',
         "city": 'Richmond',
         "food": 'appetizer',
-        "days_valid": ['Monday']
+        "days_valid": {
+            "0": "Monday"}
     },
 ]
