@@ -10,9 +10,8 @@ You can search by restaurant name, food, or discount days to find a restaurant o
 3. Using states and updating states upon an event, i.e. text written in a search box (Search.js and App.js)
 4. Using props and mapping information from JSON to create multiple components with common attributes (CardList.js)
 5. Using the tachyons package as a CSS toolkit (https://tachyons.io/)
-6. Creating a generic component that can be filled by passing in props.
+6. Creating a generic component that can be populated using props.
 7. Error handling (compatible with React Version 16 +)
-8. Using a custom font file (from https://fonts.google.com/. Safe fonts: https://web.mit.edu/jmorzins/www/fonts.html)
 
 "When React sees an element representing a user-defined component, it passes JSX attributes to this component as a single object. We call this object “props”."
 https://reactjs.org/docs/components-and-props.html
