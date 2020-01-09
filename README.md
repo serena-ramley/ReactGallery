@@ -1,8 +1,27 @@
+## React Gallery
+
+You can search by restaurant name, food, or discount days to find a restaurant of interest in Greater Vancouver offering the food you want at a discount on the day you can come! Note: All restaurants in this app are fictional
+
+## Notable Technical Features of this App
+
+0. Creating a JSON file with integers, strings and arrays (db.json)
+1. Fetching information from a REST API, https://my-json-server.typicode.com/serena-ramley/ReactGallery/cards and parsing the JSON file
+2. Creating a loading state while retrieving information from the API (App.js)
+3. Using states and updating states upon an event, i.e. text written in a search box (Search.js and App.js)
+4. Using props and mapping information from JSON to create multiple components with common attributes (CardList.js)
+5. Using the tachyons package as a CSS toolkit (https://tachyons.io/)
+6. Creating a generic component that can be filled by passing in props.
+7. Error handling (compatible with React Version 16 +)
+8. Using a custom font file (from https://fonts.google.com/. Safe fonts: https://web.mit.edu/jmorzins/www/fonts.html)
+
+"When React sees an element representing a user-defined component, it passes JSX attributes to this component as a single object. We call this object “props”."
+https://reactjs.org/docs/components-and-props.html
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, using the Command Prompt, Windows PowerShell/Terminal or similar, you can run:
 
 ### `npm start`
 
@@ -12,57 +31,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
+#### tachyons
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To use tachyons in other projects:
+npm install tachyons
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+package.json already includes tachyons in this project
