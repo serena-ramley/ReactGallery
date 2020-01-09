@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Nexa';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Nexa'), url(NexaBold.otf), format(otf);
+}
+
+h1 {
+    font-family: 'Nexa';
+    font-weight: 200;
+    color: #0ccac4;
+}
+
+div {
+    white-space: pre-wrap;
+  } 
