@@ -2,7 +2,7 @@
 
 This project is a searchable photo gallery app, with the theme of restaurants providing discounts on select days of the week. You can search by restaurant name, food, or discount days to find a restaurant of interest in Greater Vancouver offering the food you want at a discount on the day you can come! Note: All restaurants in this app are fictional
 
-## Notable Learning Achievements from this App
+## Notable Technical Features of this App
 
 0. Creating a JSON file with integers, strings and arrays (db.json)
 1. Fetching information from a REST API, https://my-json-server.typicode.com/serena-ramley/ReactGallery/cards and parsing the JSON file
