@@ -29,6 +29,7 @@ class App extends Component {
     render () {
         const filteredCards = this.state.cards.filter(card => {
             return (card.name.toLowerCase().includes(this.state.searchField.toLowerCase())
+                || card.city.toLowerCase().includes(this.state.searchField.toLowerCase())
                 || card.food.toLowerCase().includes(this.state.searchField.toLowerCase())
                 || card.days_valid.map(day => day.toLowerCase()).includes(this.state.searchField.toLowerCase())
             )
@@ -39,7 +40,9 @@ class App extends Component {
             return (
                 <div className="tc">
                     <h1 className="f1"> Featured Restaurants with Weekly Discounts</h1>
-                    <p> <i>Note: This app is to demo a searcheable gallery app.</i></p>
+                    <p className="near-white"> <i>Visit any of these restaurants on their specified days and show this app to get 10% off your meal!</i></p>
+                    <p className="near-white"><i>Search by restaurant name, city, food available, or days the discount can be used.</i></p>
+                    <p className="near-white"><i> Note: This app is just for fun and these restaurants are fictional</i></p>
                     <SearchBox searchChange={this.onSearchChange}/>
                     <ErrorBoundary>
                         <CardList cards = {filteredCards} />
