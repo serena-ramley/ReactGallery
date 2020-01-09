@@ -7,7 +7,7 @@ This project is a searchable photo gallery app, with the theme of restaurants pr
 0. Creating a JSON file with integers, strings and arrays (db.json)
 1. Fetching information from a REST API, https://my-json-server.typicode.com/serena-ramley/ReactGallery/cards and parsing the JSON file
 2. Creating a loading state while retrieving information from the API (App.js)
-3. Using states and updating states upon an event (text written in a search box) info@arista.com
+3. Using states and updating states upon an event (text written in a search box)
 4. Using props and mapping information from JSON to create multiple components with common attributes (CardList.js)
 5. Using the tachyons package as a CSS toolkit (https://tachyons.io/)
 6. Creating a generic component that can be filled by passing in props.
