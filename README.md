@@ -1,6 +1,8 @@
 ## React Gallery
 
-You can search by restaurant name, food, or discount days to find a restaurant of interest in Greater Vancouver offering the food you want at a discount on the day you can come! Note: All restaurants in this app are fictional
+You can try the app interactively at https://serena-ramley.github.io/ReactGallery/
+
+Search by restaurant name, food, or discount days to find a restaurant of interest in Greater Vancouver offering the food you want at a discount on the day you can come! Note: All restaurants in this app are fictional
 
 ## Notable Technical Features of this App
 
