@@ -2,7 +2,7 @@ name: Update
 
 on:
   schedule:
-  - cron: 19 17 * * 4
+  - cron: 27 17 * * 4
 
 jobs:
   package-update:
