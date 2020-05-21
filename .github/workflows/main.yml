@@ -2,7 +2,7 @@ name: Update
 
 on:
   schedule:
-  - cron: 27 17 * * 4
+  - cron: 39 17 * * 4
 
 jobs:
   package-update:
@@ -12,7 +12,7 @@ jobs:
     - name: set remote url
       run: git remote set-url --push origin https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
     - name: package-update
-      uses: taichi/actions-package-update@v0
+      uses: taichi/actions-package-update@master
       env:
         AUTHOR_EMAIL: bot@example.com
         AUTHOR_NAME: bot
